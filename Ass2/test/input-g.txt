@@ -1,0 +1,54 @@
+City Sydney 30
+City London 45
+City New_York 60
+City Shanghai 30
+City Los_Angeles 100
+City Tokyo 40
+City Berlin 70
+City Toronto 35
+Time Sydney London 1297
+Time Sydney New_York 1222
+Time Sydney Shanghai 614
+Time Sydney Los_Angeles 929
+Time Sydney Tokyo 611
+Time Sydney Berlin 1230
+Time Sydney Toronto 1190
+Time London New_York 447
+Time London Shanghai 719
+Time London Los_Angeles 685
+Time London Tokyo 745
+Time London Berlin 100
+Time London Toronto 457
+Time New_York Shanghai 918
+Time New_York Los_Angeles 287
+Time New_York Tokyo 841
+Time New_York Berlin 507
+Time New_York Toronto 71
+Time Shanghai Los_Angeles 811
+Time Shanghai Tokyo 163
+Time Shanghai Berlin 659
+Time Shanghai Toronto 885
+Time Los_Angeles Tokyo 688
+Time Los_Angeles Berlin 726
+Time Los_Angeles Toronto 291
+Time Tokyo Berlin 691
+Time Tokyo Toronto 803
+Time Berlin Toronto 514
+Flight Sydney London
+Flight Sydney Tokyo
+Flight Berlin Toronto
+Flight Tokyo Los_Angeles
+Flight Shanghai Sydney
+Flight New_York Sydney
+Flight Shanghai Berlin
+Flight London New_York
+Flight Shanghai Los_Angeles
+Flight Toronto New_York
+Flight Sydney Toronto
+Flight New_York Berlin
+Flight New_York Tokyo
+Flight Shanghai Sydney
+Flight London Toronto
+Flight Berlin London
+Flight Los_Angeles New_York
+Flight Los_Angeles Toronto

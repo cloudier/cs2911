@@ -1,0 +1,29 @@
+# Tests if program correctly cancels bookings (command 'Cancel').
+
+		# Set up some hotels
+Hotel Books 1000 3
+Hotel Books 1001 1
+Hotel Books 1002 2
+Hotel Books 1003 1
+
+Hotel Sauce 1000 3
+Hotel Sauce 1001 2
+Hotel Sauce 1002 3
+Hotel Sauce 1003 1
+		# Check that rooms are properly set up
+Print Books
+Print Sauce
+
+		# Bookings that only work for one hotel
+Booking 1 Dec 12 3 single 2 double 1 triple 1
+Booking 2 Dec 12 1 single 1 double 1 triple 2
+		# Check that bookings were stored properly
+Print Books
+Print Sauce
+
+		# Cancel all bookings
+Cancel 1
+Cancel 2
+		# Check that bookings were properly cancelled
+Print Books
+Print Sauce

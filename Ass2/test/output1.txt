@@ -1,0 +1,8 @@
+12 nodes expanded
+cost = 600
+Flight Sydney to Canberra
+Flight Canberra to Melbourne
+Flight Melbourne to Adelaide
+Flight Adelaide to Brisbane
+Flight Brisbane to Sydney
+Flight Sydney to Brisbane

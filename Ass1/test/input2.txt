@@ -1,0 +1,12 @@
+# Tests if program properly takes hotel- and room-related input, and outputs information correctly (commands 'Hotel' and 'Print').
+
+Hotel Beach 1001 3 # Hotel Beach has room 1001 with capacity 3 ("triple" room).
+Hotel Beach 1003 2 # Hotel Beach has room 1003 with capacity 2 ("double" room).
+Hotel Beach 1002 1 # Hotel Beach has room 1002 with capacity 1 ("single" room).
+
+Hotel State 201 2 # Hotel State has room 201 with capacity 2 ("double" room).
+Hotel State 202 2 # Hotel State has room 202 with capacity 2 ("double" room).
+Hotel State 203 1 # Hotel State has room 203 with capacity 1 ("single" room).
+
+Print Beach # Print out all the rooms in Beach.
+Print State # Print out all the rooms in State.

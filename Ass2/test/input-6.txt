@@ -1,0 +1,70 @@
+City Sydney 86
+City B 64
+City C 52
+City D 1
+City E 13
+City F 73
+City G 31
+City H 46
+City I 0
+City J 79
+Time Sydney B 459
+Time Sydney C 490
+Time Sydney D 1118
+Time Sydney E 653
+Time Sydney F 1202
+Time Sydney G 589
+Time Sydney H 1524
+Time Sydney I 1373
+Time Sydney J 869
+Time B C 151
+Time B D 960
+Time B E 989
+Time B F 1209
+Time B G 276
+Time B H 1315
+Time B I 1681
+Time B J 948
+Time C D 809
+Time C E 922
+Time C F 1064
+Time C G 131
+Time C H 1170
+Time C I 1589
+Time C J 815
+Time D E 1043
+Time D F 442
+Time D G 685
+Time D H 414
+Time D I 1390
+Time D J 520
+Time E F 868
+Time E G 934
+Time E H 1436
+Time E I 720
+Time E J 553
+Time F G 967
+Time F H 670
+Time F I 1005
+Time F J 345
+Time G H 1039
+Time G I 1568
+Time G J 747
+Time H I 1675
+Time H J 889
+Time I J 904
+Flight I Sydney
+Flight B D
+Flight Sydney H
+Flight I B
+Flight F Sydney
+Flight J I
+Flight E D
+Flight Sydney F
+Flight B C
+Flight G B
+Flight G H
+Flight H E
+Flight B I
+Flight G F
+Flight G C

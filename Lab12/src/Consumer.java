@@ -1,0 +1,38 @@
+/**
+ * An action that repeatedly removes a greeting from a queue.
+ */
+public class Consumer implements Runnable {
+	private BoundedQueue<String> queue;
+	private int greetingCount;
+
+	private static final int DELAY = 10;
+
+	/**
+	 * Constructs the consumer object.
+	 * 
+	 * @param aQueue
+	 *            the queue from which to retrieve greetings
+	 * @param count
+	 *            the number of greetings to consume
+	 */
+	public Consumer(BoundedQueue<String> aQueue, int count) {
+		queue = aQueue;
+		greetingCount = count;
+	}
+
+	public void run() {
+		try {
+			int i = 1;
+			while (i <= greetingCount) {
+				if (!queue.isEmpty()) {
+					String greeting = queue.remove();
+					System.out.println("remove " + greeting);
+					i++;
+				}
+				Thread.sleep((int) (Math.random() * DELAY));
+			}
+		} catch (InterruptedException exception) {
+			System.out.println("Interrupted consumer");
+		}
+	}
+}

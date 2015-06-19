@@ -1,0 +1,22 @@
+Beach 1001
+Beach 1003
+Beach 1002
+State 201
+State 202
+State 203
+Booking 1 State 201 202 203
+Booking 2 Beach 1003
+Beach 1001
+Beach 1003 May 5 2
+Beach 1002
+State 201 May 3 2
+State 202 May 3 2
+State 203 May 3 2
+Change 2 Beach 1003 1002
+Beach 1001
+Beach 1003 May 5 2
+Beach 1002 May 5 2
+Change rejected
+State 201 May 3 2
+State 202 May 3 2
+State 203 May 3 2

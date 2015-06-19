@@ -1,0 +1,27 @@
+Hotel Surfers 101 2      # Hotel Surfers has room 101 with capacity 2 ("double" room)
+Hotel Surfers 102 2      # Hotel Surfers has room 102 with capacity 2 ("double" room)
+Hotel Surfers 103 1      # Hotel Surfers has room 103 with capacity 1 ("single" room)
+Hotel Burleigh 101 2     # Hotel Burleigh has room 101 with capacity 2 ("double" room)
+Booking 1 Jan 25 2 single 1 double 1
+          # Booking request 1 is for 1 single and 1 double room starting on Jan 25 for 2 nights
+          # Assign rooms 101 and 103 of Hotel Surfers (output Booking 1 Surfers 101 103)
+Booking 2 Jan 24 4 double 1
+          # Booking request 2 is for 1 double room starting on Jan 24 for 4 nights
+          # Assign room 102 of Hotel Surfers since room 101 is occupied (output Booking 2 Surfers 102)
+Booking 3 Jan 26 1 double 1
+          # Booking request 3 is for 1 double room starting on Jan 26 for 1 night
+          # Assign room 101 of Hotel Burleigh (output Booking 3 Burleigh 101)
+Change 1 Jan 27 3 single 1
+          # Change booking 1 to 1 single room starting on Jan 27 for 3 nights
+          # Deassign rooms 101 and 103 of Hotel Surfers and assign room 103 (output Change 1 Surfers 103)
+Booking 4 Jan 25 2 single 1
+          # Booking request 4 is for 1 single room starting on Jan 25 for 2 nights
+          # Assign room 103 of Hotel Surfers (output Booking 4 Surfers 103)
+Cancel 3
+          # Cancel booking 3
+          # Deassign room 101 of Hotel Burleigh (output Cancel 3)
+Booking 5 Jan 26 1 single 1
+          # Booking request 5 is for 1 single room starting on Jan 26 for 1 night
+          # Request cannot be fulfilled (output Booking rejected)
+Print Surfers
+          # Print out occupancy of all rooms at Hotel Surfers, in order of room declarations, then date

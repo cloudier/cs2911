@@ -1,0 +1,19 @@
+2015 nodes expanded
+cost = 1990
+Flight Sydney to Brisbane
+Flight Brisbane to Adelaide
+Flight Adelaide to Sydney
+Flight Sydney to Canberra
+Flight Canberra to Melbourne
+Flight Melbourne to Brisbane
+Flight Brisbane to Adelaide
+Flight Adelaide to Canberra
+Flight Canberra to Sydney
+Flight Sydney to Canberra
+Flight Canberra to Adelaide
+Flight Adelaide to Melbourne
+Flight Melbourne to Sydney
+Flight Sydney to Canberra
+Flight Canberra to Brisbane
+Flight Brisbane to Adelaide
+Flight Adelaide to Brisbane
