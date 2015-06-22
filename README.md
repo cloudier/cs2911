@@ -1,11 +1,13 @@
 # cs2911
-> Engineering Design in Computing
+
+*Engineering Design in Computing – Semester 1, 2015*
+
+[Course Website](http://www.cse.unsw.edu.au/~cs2911/).
 
 ### Assignments
 
-+ Assignment 1: Hotel Booking System
-  Takes input and blah.
-+ Assignment 2: Flight Scheduler
++ **Assignment 1: Hotel Booking System.** Stores information about hotel bookings provided in a particular format.
++ **Assignment 2: Flight Scheduler.** Implements A* with a consistent heuristic.
 
 ### Labs
 
