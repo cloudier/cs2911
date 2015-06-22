@@ -7,7 +7,7 @@
 ### Assignments
 
 + **Assignment 1: Hotel Booking System.** Stores information about hotel bookings provided in a particular format.
-+ **Assignment 2: Flight Scheduler.** Implements A* with a consistent heuristic.
++ **Assignment 2: Flight Scheduler.** Implements A* to solve a travelling-salesman-style problem with a consistent heuristic.
 
 ### Labs
 
